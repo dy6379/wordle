@@ -1,0 +1,54 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.keyboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  width: 40px;
+  height: 60px;
+  font-size: 15px; /* 텍스트 크기 조정 */
+  line-height: 1; /* 텍스트 줄 높이 조정 */
+  text-align: center; /* 텍스트 정렬 */
+  background-color: #fff; /* 배경색 설정 */
+  box-sizing: border-box; /* 패딩 포함 상자 크기 설정 */
+  background-color: lightgray;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.keyboard-shift {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  width: 80px;
+  height: 60px;
+  font-size: 15px; /* 텍스트 크기 조정 */
+  line-height: 1; /* 텍스트 줄 높이 조정 */
+  text-align: center; /* 텍스트 정렬 */
+  background-color: #fff; /* 배경색 설정 */
+  box-sizing: border-box; /* 패딩 포함 상자 크기 설정 */
+  background-color: lightgray;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.keyboard-shift img {
+  max-width: 100%;
+  max-height: 100%;
+}

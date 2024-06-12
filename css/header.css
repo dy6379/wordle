@@ -1,0 +1,29 @@
+header {
+  border-bottom: 1px solid #ededef;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu-bar {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-bar_icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.menu-bar__icons img {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.menu-bar_title {
+  position: absolute; /* 중앙 정렬을 위한 절대 위치 지정 */
+  left: 50%;
+  transform: translateX(-50%);
+}
